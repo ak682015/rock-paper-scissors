@@ -7,7 +7,7 @@ public class DesktopGame {
 
 	public static void main(String[] args) {
 
-		String prompt = "Will it be rock, paper or scissors?";
+		String prompt = "Will it be rock, paper or scissors edited edited?";
 		Score score = new Score();
 		java.util.Vector<GameSummary> history = new java.util.Vector<GameSummary>();
 
@@ -29,7 +29,7 @@ public class DesktopGame {
 			if (input.equalsIgnoreCase("quit")) {
 				break;
 			}
-			GameSummary gs = new GameSummary(input, "rock", result);
+			GameSummary gs = new GameSummary(input, "rock edited edited", result);
 			history.add(gs);
 
 			JOptionPane.showMessageDialog(null, result);
