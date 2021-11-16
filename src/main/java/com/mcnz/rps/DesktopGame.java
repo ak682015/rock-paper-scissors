@@ -7,7 +7,7 @@ public class DesktopGame {
 
 	public static void main(String[] args) {
 
-		String prompt = "Will it be rock, paper or scissors 78904r52987345987239847239872394729384792387?";
+		String prompt = "Will it be rock, paper or scissors edited?";
 		Score score = new Score();
 		java.util.Vector<GameSummary> history = new java.util.Vector<GameSummary>();
 
